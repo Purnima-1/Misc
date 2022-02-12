@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CurrentWeatherComponent } from './current-weather/current-weather.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CurrentWeatherComponent
   ],
   imports: [
     BrowserModule,
@@ -16,3 +18,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+//api key - 3c53a25344b24d3ce5a5264627d942e0
